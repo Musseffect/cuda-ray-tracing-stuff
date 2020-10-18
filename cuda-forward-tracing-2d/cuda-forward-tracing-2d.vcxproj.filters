@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="CudaFunctions.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="kernel.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Renderer.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneParsing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared Code\commandLineOptions.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared Code\imgui\imgui.cpp">
+      <Filter>Shared\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared Code\imgui\imgui_impl_glfw.cpp">
+      <Filter>Shared\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared Code\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Shared\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared Code\imgui\imgui_widgets.cpp">
+      <Filter>Shared\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared Code\imgui\imgui_draw.cpp">
+      <Filter>Shared\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CudaFunctions.cuh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CudaScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneParsing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared Code\commandLineOptions.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared Code\imgui\imconfig.h">
+      <Filter>Shared\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared Code\imgui\imgui.h">
+      <Filter>Shared\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared Code\imgui\imgui_impl_glfw.h">
+      <Filter>Shared\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared Code\imgui\imgui_impl_opengl3.h">
+      <Filter>Shared\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared Code\imgui\imgui_internal.h">
+      <Filter>Shared\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared Code\imgui\imstb_rectpack.h">
+      <Filter>Shared\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared Code\imgui\imstb_textedit.h">
+      <Filter>Shared\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared Code\imgui\imstb_truetype.h">
+      <Filter>Shared\imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SceneGrammar.g4" />
+    <None Include="Shaders\drawBuffer.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\drawBuffer.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\drawScreen.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\drawScreen.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\drawShape.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\drawShape.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\lineShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\lineShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{75506249-19d6-4325-b2e1-2ba0569bcdd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5f0f8b28-057e-4c46-beb4-5a74b68af4c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{add8ca63-23b8-4e70-a54e-69799f053c8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{7a8a574b-b10e-4444-84e2-2591f1b91244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\imgui">
+      <UniqueIdentifier>{45538623-b48e-4bc3-9c0d-bc263ef7cc88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
